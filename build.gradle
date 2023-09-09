@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.viralinnovation'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven {
+        url 'https://maven.viral-innovation.com/maven-releases/'
+    }
+}
+
+dependencies {
+    implementation 'com.viralinnovation:ViralManager-API:0.3.2'
+}
+
+test {
+    useJUnitPlatform()
+}

@@ -1,0 +1,6 @@
+name: "InternalApplicationsPlugin"
+main: "com.viralinnovation.internalapplicationsplugin.InternalApplicationsPlugin"
+id: "27dd8ac6-7fdd-467b-b2b5-468bb3b17952"
+author: "Viral Innovation"
+version: "1.0.0"
+api-version: "0.3.2"
